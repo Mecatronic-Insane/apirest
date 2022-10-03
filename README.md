@@ -33,8 +33,8 @@ You need create .env file on root folder.
 
 		DB_NAME=restapi_nexu
 		DB_HOST= localhost
-        DB_USER= root
-	    DB_PASS =
+        	DB_USER= root
+	    	DB_PASS =
 		DB_PORT = 3306, //port mysql
 
 > *port is default in this case, if you have the running service on another port, configure it. 
@@ -55,14 +55,14 @@ npm run dev
 
 
 ```
-                              GET    /brands
-                              GET    /brands/:id/models
-                              POST   /brands
-                              POST   /brands/:id/models
-							  PUT	 /brands/:id
-							  DELETE / brands/id
-                              PUT    /models/:id
-                              GET    /models
+                        GET    /brands
+                        GET    /brands/:id/models
+                        POST   /brands
+                        POST   /brands/:id/models
+			PUT	 /brands/:id
+			DELETE / brands/id
+                        PUT    /models/:id
+                        GET    /models
 ```
 
 ## Test
